@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: skyblue;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 3px;
+            margin: 0px;
+
+        }
+        header > h1{
+            text-align: center;
+            font-style: bolder;
+            box-shadow: rgba(0, 0, 0, 0.493) 2px 2px 4px 1px ;
+        }
+        nav{
+            background-color: #6b6b6b;
+            padding: 3px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            
+        }
+        main{
+            background-color: white;
+            margin: 0%;
+        }
+        main > section{
+            text-align: center;
+            background-color: mediumaquamarine;
+            font-weight: bold;
+
+        }
+        article{
+            background-color: lightgray;
+        }
+        article > aside{
+            background-color: #6b6b6b;
+            font-weight: bold;
+            text-align: center;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assunto">
+            <p>Esportes, Notícias e Tecnologia
+            </p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium fugit reiciendis cupiditate doloribus odit molestias provident laudantium vitae officia deleniti commodi mollitia, nihil odio esse dolores soluta? Est, esse repellendus.</p>
+            </article>
+            <article>
+                <aside>
+                    <p>Artigo escrito por Renan Callai</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        by Renan Callai
+    </footer>
+
+</body>
+
+</html>
